@@ -16,11 +16,6 @@ ul {
 
 }
 
-li {
-
-    list-style-type: none;
-    
-}
 
 .title-container {
 
@@ -29,10 +24,17 @@ li {
     text-align: center;
 }
 
-h2 {
+h1 {
+
+  color: rgb(194, 194, 194);
+  text-shadow: 1px 1px goldenrod;
+}
+
+/* h2 {
 
     margin-left: 5%;
-}
+
+} */
 
 .navbar {
 
@@ -298,9 +300,12 @@ section {
   
   }
 
-  h1 {
+  h2 {
 
-    text-shadow: 2px 2px goldenrod;
+    text-shadow: 1px 1px goldenrod;
+    color: rgb(194, 194, 194);
+    margin-left: 5%;
+    text-decoration: none;
     
   }
 
@@ -309,18 +314,25 @@ section {
     background-color: black;
   }
 
-  .about-navlist {
-
-    list-style-type: none;
-    font-size: larger;
-  }
 
   .about {
 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* box-shadow: 0 2px 25px 0 rgb(247, 205, 19); */
+    
+  }
+
+  .carousel-text {
+
+    color: gold;
+    text-shadow: 1px 1px black;
+  }
+
+  a {
+
+    text-decoration: none;
+    color: rgb(194, 194, 194);
   }
 
   .history {
@@ -380,7 +392,6 @@ section {
     margin-bottom: 30px;
     color: rgb(202, 202, 202);
     text-shadow: 1px 1px gold;
-    /* box-shadow: 0 2px 25px 0 rgb(247, 205, 19); */
 
   }
 
