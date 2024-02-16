@@ -77,8 +77,9 @@ h1 {
     top: 33%;
     left: 50%;
     text-align: center;
-    color: black;
+    color: goldenrod;
     font-weight: bolder;
+    text-shadow: grey 2px 2px;
     
     
 }
